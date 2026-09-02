@@ -13,3 +13,4 @@ SELECT gender, AVG(age) avg_age
 FROM employee_demographics
 GROUP BY gender 
 HAVING avg_age > 40 
+;
